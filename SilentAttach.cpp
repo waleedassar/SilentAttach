@@ -1,4 +1,3 @@
-
 #include "windows.h"
 #include "plugin.h"
 #include "resource.h"
@@ -64,6 +63,7 @@ _declspec(dllexport)  int __cdecl ODBG_Plugindata(char shortname[32])
     strcpy(shortname,"SilentAttach");       // Name of plugin
     return 110;   //version 1.10
 }
+
 _declspec(dllexport) int __cdecl ODBG_Plugininit(int ollydbgversion,HWND hw,ulong *features) 
 {
   mainWnd=hw;
@@ -71,6 +71,7 @@ _declspec(dllexport) int __cdecl ODBG_Plugininit(int ollydbgversion,HWND hw,ulon
   Addtolist(0,-1,"started successfully");
   return 0;
 }
+
 _declspec(dllexport) int __cdecl ODBG_Pluginmenu(int origin,char data[4096],void *item)
 {
    if(origin==PM_MAIN)
