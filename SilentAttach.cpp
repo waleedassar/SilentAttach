@@ -3,7 +3,7 @@
 #include "resource.h"
 #include "stdlib.h"
 #include "str.h"
-//---------------------------------------------------------------------------------
+//-----------------Global variables------
 HWND mainWnd;
 HMODULE hinstt;
 void* Addr_DbgBreakPoint;
