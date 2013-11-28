@@ -5,7 +5,7 @@
 #include "str.h"
 
 
-//Dummy comment
+//----Typedef's--------------------------
 
 //-----------------Global variables------
 HWND mainWnd;
