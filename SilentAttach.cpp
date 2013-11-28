@@ -6,6 +6,7 @@
 
 
 
+
 //-----------------Global variables------
 HWND mainWnd;
 HMODULE hinstt;
