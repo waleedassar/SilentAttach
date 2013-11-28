@@ -4,6 +4,8 @@
 #include "stdlib.h"
 #include "str.h"
 
+
+
 //-----------------Global variables------
 HWND mainWnd;
 HMODULE hinstt;
